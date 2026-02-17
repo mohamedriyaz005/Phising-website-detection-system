@@ -1,10 +1,8 @@
-Phishing Website Detection System
+🛡️ Phishing Website Detection System
 
-Overview:
+A production-grade phishing website detection system built using Django, Machine Learning, and MongoDB. The system analyzes URL-based features and predicts whether a website is legitimate or malicious using a trained Random Forest model with up to 95% accuracy.
 
-A productiongrade phishing website detection system built using Django, Machine Learning, and MongoDB. The system analyzes URL-based features and predicts whether a website is legitimate or malicious using a trained Random Forest model achieving up to 95% accuracy.
-
-Tech Stack:
+🛠️ Tech Stack
 
 Python 3.10+
 
@@ -16,55 +14,60 @@ MongoDB
 
 HTML / CSS / JavaScript
 
-
-Machine Learning Model
+🤖 Machine Learning Model
 
 Algorithm: Random Forest Classifier
+
 Accuracy: 94–97% (depending on dataset)
+
 Training Dataset: Phishing Websites Dataset (UCI / Kaggle)
 
-Features
+🔑 Features
 
-Real-time URL scanning
+🔍 Real-time URL scanning
 
-Machine learning classification
+🧠 Machine learning-based classification
 
-MongoDB scan history storage
+💾 MongoDB scan history storage
 
-REST API architecture
+🌐 REST API architecture
 
-Clean modular backend structure
+🏗️ Clean modular backend structure
 
-Production-ready project structure
+🚀 Production-ready project structure
 
+⚡ How to Run
 
-How to Run
+Install Dependencies
 
-1. Install Dependencies
 pip install -r requirements.txt
 
-2. Train Model
+
+Train Model
+
 python training/train_model.py
 
-3. Run Server
+
+Run Server
+
 python manage.py runserver
 
-4. Open Frontend
-Open index.html in browser.
+
+Open Frontend
+Open index.html in your browser.
 
 API Endpoint
+
 POST /api/predict/
 
+🔮 Future Improvements
 
+🧠 Deep Learning integration
 
-Future Improvements
+🌐 Real-time WHOIS lookup
 
-Deep Learning integration
+🚫 Blacklist API integration
 
-Real-time WHOIS lookup
+🖥️ Browser extension integration
 
-Blacklist API integration
-
-Browser extension integration
-
-Deployment on AWS / Azure
+☁️ Deployment on AWS / Azure
